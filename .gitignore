@@ -87,3 +87,6 @@ ENV/
 
 # Rope project settings
 .ropeproject
+models/saliency/.DS_Store
+models/.DS_Store
+.DS_Store
