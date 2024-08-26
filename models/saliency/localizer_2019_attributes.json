@@ -1,0 +1,1 @@
+{"class_labels": ["UnmarkedBee", "MarkedBee", "BeeInCell", "UpsideDownBee"], "thresholds": {"UnmarkedBee": 0.663, "MarkedBee": 0.643, "BeeInCell": 0.475, "UpsideDownBee": 0.693}}
