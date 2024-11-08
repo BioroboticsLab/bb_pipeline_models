@@ -1,5 +1,16 @@
-from tensorflow.keras.layers import Input, SpatialDropout2D, BatchNormalization, Conv2D, Activation, Add, GlobalAveragePooling2D, Dense
-from tensorflow.keras.models import Model
+import tensorflow as tf
+
+# Access Keras layers and models from tf.keras
+Input = tf.keras.layers.Input
+SpatialDropout2D = tf.keras.layers.SpatialDropout2D
+BatchNormalization = tf.keras.layers.BatchNormalization
+Conv2D = tf.keras.layers.Conv2D
+Activation = tf.keras.layers.Activation
+Add = tf.keras.layers.Add
+GlobalAveragePooling2D = tf.keras.layers.GlobalAveragePooling2D
+Dense = tf.keras.layers.Dense
+Model = tf.keras.models.Model
+
 import keras
 import numpy as np
 import pickle
